@@ -14,7 +14,6 @@ mongoose
 .connect("mongodb://localhost:27017/ecommerce-g")
 .then(() => console.log(" mongo connected!"))
 .catch((err) => console.log("failed to connect!", err));
-
 seeIntialproducts()
 
 app.use('/user',userRoute)
